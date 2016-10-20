@@ -10,8 +10,6 @@ Find the best estimate of city, state and country for a given latitude and longi
 
 `pip install georeverse`
 
-copy `world_cities.csv` to folder you runnig your code
-
 ## Usage
 
 `import georeverse`
