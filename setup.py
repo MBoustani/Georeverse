@@ -11,13 +11,14 @@ TESTS_REQUIRES = []
 
 setup(
     name='Georeverse',
-    version=0.1,
-    description='Find best estimate of city, state and country for a given latitude and longitude.',
+    version=0.2,
+    description='Find the best estimate of city, state and country for a given latitude and longitude.',
     author='Mazi Boustani',
     author_email='maziyar_b4@yahoo.com',
     url='https://github.com/MBoustani/Georeverse',
     download_url=('https://github.com/MBoustani/Georeverse/archive/master.zip'),
     packages=find_packages(),
+    py_modules=['georeverse'],
     install_requires=INSTALL_REQUIRES,
     tests_require=TESTS_REQUIRES,
     extras_require={},
