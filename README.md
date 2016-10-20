@@ -15,5 +15,7 @@ copy `world_cities.csv` to folder you runnig your code
 ## Usage
 
 `import georeverse`
+
 `print georeverse.georeverse([34.148176, -118.142115])`
+
 `{'latitude': '34.16038129', 'city': 'Pasadena', 'state': 'California', 'longitude': '-118.1388719', 'country': 'United States of America'}`
