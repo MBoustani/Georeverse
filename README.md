@@ -12,8 +12,7 @@ Find the best estimate of city, state and country for a given latitude and longi
 
 ## Usage
 
-`import georeverse
-
-print georeverse.georeverse([34.148176, -118.142115])
+`import georeverse`
+`print georeverse.georeverse([34.148176, -118.142115])`
 
 {'latitude': '34.16038129', 'city': 'Pasadena', 'state': 'California', 'longitude': '-118.1388719', 'country': 'United States of America'}`
